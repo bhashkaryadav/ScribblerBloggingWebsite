@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/common.css">
+    <link rel="stylesheet" href="/style/postList.css">
+    <title>Post List</title>
+</head>
+<body id="PostListBody">
+
+    
+
+
+    <div class="Header">
+        <button class="HeaderButtons">Sign Up</button>
+        <button class="HeaderButtons">Sign In</button>
+        <h3 class="Logo">ScriBBler</h3>
+        <h5 class="subLogo">Explore,Imagine,Create</h5>
+     </div>
+
+
+
+<div id="mainWrapDiv">
+
+
+    <div id="del-oneB" class="blog-post-box" >
+        <div class="author-name"> 
+            <p class="author-name-text">Bhasker Yadav</p>
+        </div>   
+
+        <div class="topic-content">
+            <span id="delOne" class="topic-delete" onclick="openModalDel(this.id)">&#128465;</span>
+            <label  id="topic" class="topic-delete">This is the topic for the blog</label>
+            <p>Con ten uno dos tres cuenta Con ten uno dos tres cuenta Con ten uno dos tres cuenta 
+                on ten uno dos tres cuenta Con ten uno dos tres cuenta Con ten uno dos tres cuenta 
+                on ten uno dos tres cuenta Con ten uno dos tres cuenta Con ten uno dos tres cuenta  </p>
+             <span class="topic-delete"><a href="/html/post.html">&#x2026;</a></span>
+        </div>
+
+    </div>
+
+
+    <div id="del-twoB" class="blog-post-box" >
+        <div class="author-name"> 
+            <p class="author-name-text">Gulshan Kumar</p>
+        </div>   
+
+        <div  class="topic-content">
+            <span id="delTwo"  class="topic-delete" onclick="openModalDel(this.id)">&#128465;</span>
+            <label id="topic"  class="topic-delete">This is the topic for the blog</label>
+            <p>Con ten uno dos tres cuenta Con ten uno dos tres cuenta Con ten uno dos tres cuenta 
+                on ten uno dos tres cuenta Con ten uno dos tres cuenta Con ten uno dos tres cuenta 
+                on ten uno dos tres cuenta Con ten uno dos tres cuenta Con ten uno dos tres cuenta  </p>
+             <span class="topic-delete"><a href="/html/post.html">&#x2026;</a></span>
+        </div>
+        
+    </div> 
+
+
+
+
+
+    <div id="del-threeB" class="blog-post-box">
+
+        <div class="author-name"> 
+            <p class="author-name-text">Raashid Imtiyaz</p>
+        </div>   
+
+        <div   class="topic-content">
+            <span id="delThree"  class="topic-delete" onclick="openModalDel(this.id)">&#128465;</span>
+            <label  id="topic" class="topic-delete">This is the topic for the blog</label>
+            <p>Con ten uno dos tres cuenta Con ten uno dos tres cuenta Con ten uno dos tres cuenta 
+                on ten uno dos tres cuenta Con ten uno dos tres cuenta Con ten uno dos tres cuenta 
+                on ten uno dos tres cuenta Con ten uno dos tres cuenta Con ten uno dos tres cuenta  </p>
+            <span class="topic-delete"><a href="/html/post.html">&#x2026;</a></span>
+        </div>
+
+    </div>
+
+
+    <div id="del-fourB"  class="blog-post-box" >
+        <div class="author-name"> 
+            <p class="author-name-text">Tarun pandey</p>
+        </div>   
+
+        <div class="topic-content">
+            <span  id="delFour" class="topic-delete" onclick="openModalDel(this.id)">&#128465;</span>
+            <label id="topic"  class="topic-delete">This is the topic for the blog</label>
+            <p>Con ten uno dos tres cuenta Con ten uno dos tres cuenta Con ten uno dos tres cuenta 
+                on ten uno dos tres cuenta Con ten uno dos tres cuenta Con ten uno dos tres cuenta 
+                on ten uno dos tres cuenta Con ten uno dos tres cuenta Con ten uno dos tres cuenta  </p>
+            <span class="topic-delete"><a href="/html/post.html">&#x2026;</a></span>
+        </div>
+        
+    </div> 
+
+
+
+    <div id="del-fiveB"  class="blog-post-box" >
+        <div class="author-name"> 
+            <p class="author-name-text"> Sin pacman</p>
+        </div>   
+
+        <div class="topic-content">
+            <span id="delFive" class="topic-delete" onclick="openModalDel(this.id)">&#128465;</span>
+            <label id="topic"  class="topic-delete">This is the topic for the blog</label>
+            <p>Con ten uno dos tres cuenta Con ten uno dos tres cuenta Con ten uno dos tres cuenta 
+                on ten uno dos tres cuenta Con ten uno dos tres cuenta Con ten uno dos tres cuenta 
+                on ten uno dos tres cuenta Con ten uno dos tres cuenta Con ten uno dos tres cuenta  </p>
+            <span class="topic-delete"><a href="/html/post.html">&#x2026;</a></span>
+        </div>
+        
+    </div> 
+    
+
+</div>
+
+
+
+
+ 
+<div class="modal-bg-del">
+    <div class="modal-del">
+        <div class=" modal-del-content">
+        <h5 id="question">Are you sure you want to delete this ?</h5>
+        <button  id="yes-btn" class="btn">Yes</button>
+        <button id="no-btn" class="btn">No</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script src="/script/postList.js"></script>
+   
+</body>
+</html>

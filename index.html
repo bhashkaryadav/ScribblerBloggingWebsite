@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <title>Scribbler Home</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet"> 
+ <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="/style/common.css">
+</head>
+
+<body class="LoginPage">
+       <div class="Header">
+        <button class="HeaderButtons">Sign Up</button>
+        <button class="HeaderButtons">Sign In</button>
+        <h3 class="Logo">ScriBBler</h3>
+        <h5 class="subLogo">Explore,Imagine,Create</h5>
+        </div>
+
+        <div   class="modal-bg">
+            <div class="modal-content">
+                <div class="form-content">
+                    <span id="close-btnId" class="close-btn" >&#10006;</span>
+                    <label  class="close-btn">Get Started</label>
+                    <hr>
+                    <form action=""  class="sign-upForm">
+                        <label for="Name" class="formLabel">Name</label>
+                        <input placeholder="  Enter your name" type="text"  required class="form-Input">
+                        <label for="UserName" class="formLabel">Username</label>
+                        <input placeholder="  Enter your name" type="text" required class="form-Input">
+                        <label for="password" class="formLabel">Password</label>
+                        <input placeholder="  Enter your Password" type="password" required class="form-Input">
+                        <label for="confirm password" class="formLabel">Confirm Password</label>
+                        <input placeholder="  Re-enter password" type="password" required  class="form-Input">
+                        <input type="submit"  name="submit" value="Submit" id="signUpBtn" class="form-Input"></input>
+                    </form>
+                </div>
+             </div>
+        </div>
+
+        <div   class="modal-bg">
+            <div class="modal-content">
+                <div class="form-content">
+                    <span id="close-btnId" class="close-btn" >&#10006;</span>
+                    <label  class="close-btn">Welcome Back</label>
+                    <hr>
+                    <form action=""  class="sign-upForm">
+                        <label for="UserName" class="formLabel">Username</label>
+                        <input placeholder="  Enter your name" type="text" required class="form-Input">
+                        <label for="password" class="formLabel">Password</label>
+                        <input placeholder="  Enter your Password" type="password" required class="form-Input">
+                        <input type="submit"  name="submit" value="Sign In" id="signUpBtn" class="form-Input"></input>
+                    </form>
+                    <h6 id="NotAMember"> Not a member?<a href="">Sign Up</a></h6>
+                </div>
+               
+            </div>
+        </div>
+
+
+
+       <div class="postButtonsDiv">
+        <button class="postButtons" ><a href="/html/postList.html">All Posts</a> </button>
+        <button  class= "postButtons">Create Post</button>
+      </div>
+
+
+      <div class="modal-bg">
+        <div id="modalContentId" class="modal-content">
+            <div class="form-content">
+                <span id="close-btnId" class="close-btn" >&#10006;</span>
+                <label  class="close-btn">Pen Your Post</label>
+                <hr>
+                <div  class="sign-upForm">
+                    <label for="Name" class="formLabel">Title</label>
+                    <input   class="form-Input" required placeholder="  Enter the title of your post" type="text"  >
+                    <label for="UserName" class="formLabel">Content </label>
+                    <textarea id="textAreaId" class="form-Input" required  placeholder=" Enter the content of your post"></textarea>
+                    <input type="submit"  name="submit" value="Create" id="CreatePost" class="form-Input"></input>
+                </div>
+            </div>
+         </div>
+    </div>
+
+   
+    
+<script  src="/script/common.js">
+   
+</script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+#main-container{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+
+#blog-heading{
+ text-align: center;
+}
+
+.btns{
+    width: 50px;
+    background-color:#fa0e18 ;
+    width: 100px;
+    height: 40px;
+    color: whitesmoke;
+    border: none;
+    font-weight: bold;
+}
+.btns:hover,.btns:focus{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+#edit-btn{
+    float: right;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+
+#Author-name{
+    font-size: x-large;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#blogArea{
+    
+
+    font-size:x-large ;
+}
+
+#like-btn{
+    margin-top: 30px;
+}
+
+#timesLiked{
+    margin-bottom: 10px;
+}
+
+#comment-area{
+    width: 70%;
+    height: 100px;
+}
+
+#comment-btn{
+   margin-top: 10px; 
+}
+
+#actual-comment{
+    padding-left: 10px;
+    width: 100wh;
+}
+
+#allComment{
+    margin-top: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+

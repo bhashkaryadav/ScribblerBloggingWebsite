@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/common.css">
+    <link rel="stylesheet" href="/style/post.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+     <title>Post</title>
+
+</head>
+<body>
+    <div class="Header">
+        <button class="HeaderButtons">Sign Up</button>
+        <button class="HeaderButtons">Sign In</button>
+        <h3 class="Logo">ScriBBler</h3>
+        <h5 class="subLogo">Explore,Imagine,Create</h5>
+        </div>
+    
+
+    <div id="main-container">
+        <h2 id="blog-heading" spellcheck="false">
+            This is the topic for my blog
+        </h2>
+        <div>
+            <span id="edit-btn" class="btns" onclick="edit()"><i class='fas fa-edit'></i> Edit </span> 
+            <label id="Author-name">Bhasker yadav</label>
+        </div> 
+        
+        <p id="blogArea" spellcheck="false">Node.js is an open-source, cross-platform,
+             JavaScript runtime environment that executes JavaScript code outside of a web browser. 
+            Node.js lets developers use JavaScript to write command line tools and
+             for server-side scripting—running scripts server-side to produce dynamic web page 
+             content before the page is sent to the user's web browser. Consequently, Node.js represents
+              a "JavaScript everywhere" paradigm,[6] unifying web-application development around a single 
+              programming language, rather than different languages for server- and client-side scripts.
+
+            Though .js is the standard filename extension for JavaScript code, the name 
+            "Node.js" doesn't refer to a particular file in this context and is merely the 
+            name of the product. Node.js has an event-driven architecture capable of asynchronous 
+            I/O. These design choices aim to optimize throughput and scalability in web applications
+             with many input/output operations, as well as for real-time
+              Web applications (e.g., real-time communication programs and browser games).[7]
+            
+            The Node.js distributed development project was previously governed by the Node.js Foundation,[8] 
+            and has now merged with the JS Foundation to form the OpenJS Foundation,
+             which is facilitated by the Linux Foundation's Collaborative Projects program.[9]
+            
+            Corporate users of Node.js software include GoDaddy,[10] Groupon,[11] IBM,[12] LinkedIn,[13][14]
+             Microsoft,[15][16] Netflix,[17] PayPal,[18][19] Rakuten, SAP,[20]</p>
+        <button class="btns" id="like-btn" onclick="liked()"><i class='fas fa-thumbs-up' ></i> Like</button>
+        <p id="timesLiked"></p>
+        <textArea onfocus="this.value=''" id="comment-area" placeholder=" Leave a comment ..."></textArea>
+        <button class="btns" id="comment-btn" onclick="comment()" value="RESET">Comment</button>
+        <label id="allComment">All comments</label>
+        <div id="allComment-area">
+            
+        </div>
+
+        
+
+    </div>
+
+<script src="/script/post.js"></script>
+</body>
+</html>
